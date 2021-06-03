@@ -571,6 +571,7 @@ GameObject:
   - component: {fileID: 643476268}
   - component: {fileID: 643476270}
   - component: {fileID: 643476269}
+  - component: {fileID: 643476271}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -4022,6 +4023,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &643476271
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643476267}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 9437056227cba5543ad820fee3d484f3, type: 2}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &644734261
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,7 +5162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004630988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000023841858, y: -0.00000011920929, z: -10}
+  m_LocalPosition: {x: 0.00000047683716, y: -0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 198562127}
@@ -5351,7 +5368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"bulletPos","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MoveSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"bulletPos","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isAvoidance","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"avoidanceSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"MaxSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 939800493}
 --- !u!61 &2138070406
