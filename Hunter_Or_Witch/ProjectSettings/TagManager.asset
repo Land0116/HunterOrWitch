@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Monster
+  - Bullet
+  - Witch Bullet
+  - Witch Effect
+  - Spike
+  - Spike_1
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -15,10 +21,10 @@ TagManager:
   - 
   - 
   - Slime
-  - 
-  - 
-  - 
-  - 
+  - Nepen
+  - Wolf
+  - Item
+  - Platform
   - 
   - 
   - 
